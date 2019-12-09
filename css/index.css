@@ -1,3 +1,93 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
 
+/* body {
+    line-height: 1.8;
+} */
 
+.container {
+  margin: 1% 3%;
+  /* border: 1px solid black; */
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgb(124, 121, 121);
+}
+
+nav a:nth-child(6) {
+  margin-right: 3.566857364%;
+}
+
+.whole {
+  margin: 10% 0;
+  display: flex;
+  align-items: center;
+  /* border: 1px solid black; */
+  justify-content: space-evenly;
+}
+
+.halves {
+  /* border: 1px solid black; */
+  font-size: 4.5rem;
+  text-align: center;
+  line-height: 55px;
+  margin-left: 25%;
+}
+
+.halves:nth-child(2) {
+  margin-left: 10%;
+}
+
+.button {
+  width: 10rem;
+  height: 35px;
+  width: 70%;
+  border-radius: 2px;
+  border: 1px solid black;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.button:hover {
+  background-color: rgba(116, 116, 221, 0.699);
+  color: white;
+  transition: 0.8s;
+}
+
+.description {
+  display: flex;
+}
+
+.descrpition2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.middle-img {
+  margin: 3% 0;
+  width: 100%;
+}
+
+.third {
+  width: 29%;
+}
+
+.features {
+  width: 90%;
+  margin-right: 2%;
+}
+
+.about {
+  width: 90%;
+  margin-left: 2%;
+}
+
+h6 {
+  text-align: center;
+  padding: 5%;
+}
+h6 {
+  color: white;
+}
